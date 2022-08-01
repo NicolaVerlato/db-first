@@ -1,0 +1,13 @@
+Titolo: cars
+
+id: BIGINT, PRIMARY_KEY, NOTNULL
+immagine_macchina: TEXT, NULL
+targa: VARCHAR(7), NOTNULL, UNIQUE
+marchio: VARCHAR(20), NOTNULL
+modello: VARCHAR(20), NOTNULL
+descrizione: TEXT, NULL
+km: SMALLINT, NULL
+prezzo: MEDIUMINT, NOTNULL
+cambio: TINYINT, NULL
+colore: VARCHAR(20), NULL
+anno: YEAR
