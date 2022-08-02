@@ -7,7 +7,7 @@ marchio: VARCHAR(20), NOTNULL
 modello: VARCHAR(20), NOTNULL
 descrizione: TEXT, NULL
 km: SMALLINT, NULL
-prezzo: MEDIUMINT, NOTNULL
+prezzo: DECIMAL(8, 2), NOTNULL
 cambio: TINYINT, NULL
 colore: VARCHAR(20), NULL
 anno: YEAR
